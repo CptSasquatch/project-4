@@ -3,6 +3,7 @@
 ## Project Title - Consumer Sentiment and US Housing Market Analysis
 
 ### Team Members
+
 * [Jhazmine Billups](https://www.linkedin.com/in/jhazmine-billups/)
 * [Jason Dugger](https://www.linkedin.com/in/jason-dugger-5277982a/)
 * [Megan Goode](https://www.linkedin.com/in/megan-goode-0b419a60/)
