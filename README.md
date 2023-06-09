@@ -79,4 +79,4 @@ We will be using machine learning to predict the price index(Jan 2000=100) of ho
 
 #### Final Project Report
 
-* [Final Project Report](https://github.com/CptSasquatch/project-4)
+* [Final Project Report](https://docs.google.com/presentation/d/1_d7BWpvVJStsAObi0IUtoNzGzz51GVUMTdhjJULH8NU/edit#slide=id.g35f391192_00)
