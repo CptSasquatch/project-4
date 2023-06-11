@@ -11,7 +11,9 @@
 
 ### Project Description/Outline
 
-We will be using machine learning to predict the price index(Jan 2000=100) of houses in the US housing market using a random forest regression model from sklearn as well as a time series model using pyaf. As part of our analysis, we will be looking at the following:
+We will be using machine learning to predict the price index(Jan 2000=100) of houses in the US housing market using a random forest regression model from sklearn as well as a time series model using PyAF. PyAF is an Open Source Python library for Automatic Forecasting built on top of popular data science python modules: NumPy, SciPy, Pandas and scikit-learn.
+
+As part of our analysis, we will be looking at the following:
 
 * How well does the model predict the price index of houses in the US housing market?
 * What are the most important features in predicting the price index of houses in the US housing market?
