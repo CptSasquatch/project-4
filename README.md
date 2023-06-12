@@ -108,7 +108,8 @@ The shifted target technique performed well and we were able to predict the pric
 * Try our shifted target technique for a years worth of data and see its performance
 * Try a different model for time series analysis
 * Explore other data sets
+* Use the FRED and Alpha Vantage API to update the data set monthly
 
 #### Final Project Report
 
-* [Final Project Report](https://docs.google.com/presentation/d/1_d7BWpvVJStsAObi0IUtoNzGzz51GVUMTdhjJULH8NU/edit#slide=id.g35f391192_00)
+* [Final Project Report](https://docs.google.com/presentation/d/10QRdnS6sAIIbPS-D1PtJzw9H-kQeG22_3ZDqEfg6FC4/edit?usp=sharing)
