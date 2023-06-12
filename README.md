@@ -79,6 +79,36 @@ As part of our analysis, we will be looking at the following:
 * What are the best ways to handle overfitting?
 * What are the best ways to handle underfitting?
 
+#### Our Findings
+
+The project was a success. We were able to predict the price index of houses in the US housing market with an accuracy of 99.9% using a random forest regression model from sklearn. The most important features in predicting the price index of houses in the US housing market were the following:
+
+* `Mortgage Rate`
+* `Oil Price`
+* `NASDAQ`
+* `Lumber Price Index`
+* `Construction`
+* `Fed Funds Rate`
+
+We initially used the dataset from Kaggle and were not satisfied with the number of predictions so we increased the resolution by adjusting and imuting missing data. Later, we created a custom dataset by combining data from FRED and Alpha Vantage. The custom dataset provided a much higher resolution and during the testing phase were able to output 108 predictions. Our model predictions were fantastic and we were able to predict the price index of houses in the US housing market with an accuracy of 99%.
+
+After we were satisfied with the RandomForestRegression model we wanted to target future predictions. We used a time series model to predict the price index of houses in the US housing market. Though the time series model was probably not the best model for this data set, it still performed well. After we were satisfied with the time series model we wanted to target future predictions using the RandomForestRegression model. To do this, we implemented a shifted target technique to predict the price index of houses in the US housing market. Upon training the model on our custom dataset we were left with different features in the top 10 most important features. The most important features in predicting the price index of houses in the US housing market were the following:
+
+* `Price Index`
+* `CPI`
+* `Sales Price`
+* `NASDAQ`
+* `Lumber Price Index`
+* `Construction`
+
+The shifted target technique performed well and we were able to predict the price index of houses in the US housing market 6 months in advance with an accuracy of 99%.
+
+#### Future Considerations
+
+* Try our shifted target technique for a years worth of data and see its performance
+* Try a different model for time series analysis
+* Explore other data sets
+
 #### Final Project Report
 
 * [Final Project Report](https://docs.google.com/presentation/d/1_d7BWpvVJStsAObi0IUtoNzGzz51GVUMTdhjJULH8NU/edit#slide=id.g35f391192_00)
